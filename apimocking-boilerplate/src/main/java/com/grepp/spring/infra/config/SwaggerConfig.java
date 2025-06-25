@@ -30,7 +30,7 @@ public class SwaggerConfig {
                                      .bearerFormat(
                                          "JWT")
                                      .description(
-                                         "JWT 토큰을 입력하세요. 예: Bearer {token}")
+                                         "JWT 토큰을 입력하세요. Bearer 는 생략하세요")
                            ))
                    .addSecurityItem(new SecurityRequirement().addList("bearerAuth"));
         
